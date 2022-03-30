@@ -22,13 +22,13 @@ public class ContinueTest {
 
             if(i%2==1){     //홀수 이면??
                 continue;
-            }
+            }               // 홀수일때 break문과 달리 ' } ' 밖으로 나가지 않고 } 끝으로 이동 ==> 다시 for문 수행하러 돌아간다.
             sum = sum+i;
 
             //==> 아래의 내용은 for 순환문이 수행하며
             //==> 변수의 값의 변화를 확인하기 위한 출력문 (DEBUG)
-            //System.out.println("i : "+i);
-            //System.out.println("sum : "+sum);
+            System.out.println("i : "+i);
+            System.out.println("sum : "+sum);
         }
 
         System.out.println("0 ~ "+inputData+" 까지의 짝수의 합은 :"+sum);
