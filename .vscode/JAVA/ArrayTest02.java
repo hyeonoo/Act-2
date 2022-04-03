@@ -28,6 +28,17 @@ public class ArrayTest02 {
                 System.out.println("value["+j+"]["+k+"] = "+value[j][k]);
             }
         }
+
+        /*
+            Ex. int[][] c = new int[2][3]; 일때
+                c.length = 2가 되고, c[0].length=3, c[1].length=3이 된다.(그림으로 그려서 생각하면 이해가 잘된다.)
+            #가변배열 : 아직 정해지지않아 변할수 있는 배열
+                    Ex. int[][] c = new int[2][];
+                        c.length = 2;이고
+                        c[0] = new int[1], c[1] = new int[4] 처럼 두번째 []은 정해재지 않았기에 배열을 부여할수 있다.
+
+            # camal case : 대소문자를 구분하는 ==> 첫 알파벳이 대문자인지 소문자인지 구분한다면 class인지 variable인지 구분이 가능하다.
+        */
     }
     
 }
