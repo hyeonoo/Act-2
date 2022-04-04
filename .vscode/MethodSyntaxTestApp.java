@@ -2,6 +2,12 @@
 /*
     FileName : MethodSyntaxTestApp.java
     - Bean(POJO)인 MethodSyntax.class를 사용하는 Application class
+
+    # POJO ??
+        - Plain Old Java Object : 오래된 방식의 간단한 자바 오브젝트, 
+        - java EE 등의 중량 framework들을 사용하게 되면서 해당 framework에 종속된 '무거운' 객체를 만들게 된 것에 반발해서 사용하게 된 용어!!
+        ==> 특정 JAVA model이나 기능 framework 등을 따르지 않는 java object를 지칭하는 말로 사용.
+        (간단히 정리만..)
 */
 public class MethodSyntaxTestApp {
     ///Field
