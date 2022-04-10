@@ -83,11 +83,12 @@ public class User03 {
         System.out.println("name : "+user03.getName());
         System.out.println("javaLevel : "+user03.getJavaLevel());
 
+        /*
         System.out.println("===================");
         User03.user04 = new User03("이순신", 200);
         System.out.println("name : "+user04.getNAme());
         System.out.println("javaLevel : "+user04.getJavaLevel());
-    
+        */
     }
     
 }

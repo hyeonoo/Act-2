@@ -1,6 +1,21 @@
 
 /*
     FileName : Display.java
+    
+    # Overriding
+        - 부모 class로부터 상속받는 method 중 method의 내용을 변경하고 싶은 것 재정의하여 사용
+        조건(자손 클래스에서 overriding하는 method는 조상클래스의 메서드와)
+        1. 이름이 같아야 한다. 
+        2. 매개 변수가 같아야 한다. 
+        3. 리턴 타입이 같아야 한다. 
+        조건(조상클래스의 메서드를 자손클래스에서 overriding할 때)
+        1. 접근 제어자를 조상클래스의 메서드보다 좁은 범위로 변경할 수 없다.
+        2. 예외는 조상 클래스의 메서드보다 많이 선언할 수 없다. 
+        3. Instance method를 static method로 또는 그 반대로 변경할 수 없다. 
+
+    # Overloading vs Overriding
+        Overloading : 기존에 없는 새로운 method를 정의하는 것(new)
+        OVerriding : 상속받은 method의 내용을 변경하는 것(change, modify)xs
 */
 class BusCharge {
     ///Field
@@ -19,6 +34,11 @@ class BusCharge {
         System.out.println("학생:300, 일반인:500, 어르신:공짜");
     }
 }
+/*
+    BusCharge class의 charge() method -> Student, Adult, Old 모두 가지고 있다. 
+    but  Student, Adult, Old 각각 운임요금이 다르기 떄문에 charge() method 재정의!!
+    ==> 자신의 Interface 이용하여 호출하여 사용
+*/
 
 class Student extends BusCharge{
     public Student(){
