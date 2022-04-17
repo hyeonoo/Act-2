@@ -1,6 +1,6 @@
 
 /*
-    FileName : Display01.java
+    FileName : Display02.java
     1. BusCharge.class으ㅣ charge() Method 사용유무는...?
     2. 하위 클래스(Student, Adult, Old)에서 charge() Method가 OverRiding 않된다면??
     /////////////////////////////////////////////////////////////////////////
